@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/liulei/work/BERTCpp/profile.cpp" "CMakeFiles/profiletest.dir/profile.cpp.o" "gcc" "CMakeFiles/profiletest.dir/profile.cpp.o.d"
+  "/home/liulei/work/bert_test/profile.cpp" "CMakeFiles/profiletest.dir/profile.cpp.o" "gcc" "CMakeFiles/profiletest.dir/profile.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/liulei/work/BERTCpp/build/CMakeFiles/bertcpp.dir/DependInfo.cmake"
+  "/home/liulei/work/bert_test/build/CMakeFiles/bertcpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

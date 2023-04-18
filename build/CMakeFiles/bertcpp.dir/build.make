@@ -53,10 +53,10 @@ RM = /home/liulei/miniconda2/envs/bert/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liulei/work/BERTCpp
+CMAKE_SOURCE_DIR = /home/liulei/work/bert_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liulei/work/BERTCpp/build
+CMAKE_BINARY_DIR = /home/liulei/work/bert_test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bertcpp.dir/depend.make
@@ -72,198 +72,198 @@ include CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/batchgemm.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/batchgemm.cc.o: ../src/batchgemm.cc
 CMakeFiles/bertcpp.dir/src/batchgemm.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bertcpp.dir/src/batchgemm.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/batchgemm.cc.o -MF CMakeFiles/bertcpp.dir/src/batchgemm.cc.o.d -o CMakeFiles/bertcpp.dir/src/batchgemm.cc.o -c /home/liulei/work/BERTCpp/src/batchgemm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bertcpp.dir/src/batchgemm.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/batchgemm.cc.o -MF CMakeFiles/bertcpp.dir/src/batchgemm.cc.o.d -o CMakeFiles/bertcpp.dir/src/batchgemm.cc.o -c /home/liulei/work/bert_test/src/batchgemm.cc
 
 CMakeFiles/bertcpp.dir/src/batchgemm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/batchgemm.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/batchgemm.cc > CMakeFiles/bertcpp.dir/src/batchgemm.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/batchgemm.cc > CMakeFiles/bertcpp.dir/src/batchgemm.cc.i
 
 CMakeFiles/bertcpp.dir/src/batchgemm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/batchgemm.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/batchgemm.cc -o CMakeFiles/bertcpp.dir/src/batchgemm.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/batchgemm.cc -o CMakeFiles/bertcpp.dir/src/batchgemm.cc.s
 
 CMakeFiles/bertcpp.dir/src/bert.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/bert.cc.o: ../src/bert.cc
 CMakeFiles/bertcpp.dir/src/bert.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bertcpp.dir/src/bert.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/bert.cc.o -MF CMakeFiles/bertcpp.dir/src/bert.cc.o.d -o CMakeFiles/bertcpp.dir/src/bert.cc.o -c /home/liulei/work/BERTCpp/src/bert.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bertcpp.dir/src/bert.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/bert.cc.o -MF CMakeFiles/bertcpp.dir/src/bert.cc.o.d -o CMakeFiles/bertcpp.dir/src/bert.cc.o -c /home/liulei/work/bert_test/src/bert.cc
 
 CMakeFiles/bertcpp.dir/src/bert.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/bert.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/bert.cc > CMakeFiles/bertcpp.dir/src/bert.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/bert.cc > CMakeFiles/bertcpp.dir/src/bert.cc.i
 
 CMakeFiles/bertcpp.dir/src/bert.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/bert.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/bert.cc -o CMakeFiles/bertcpp.dir/src/bert.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/bert.cc -o CMakeFiles/bertcpp.dir/src/bert.cc.s
 
 CMakeFiles/bertcpp.dir/src/bertembedding.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/bertembedding.cc.o: ../src/bertembedding.cc
 CMakeFiles/bertcpp.dir/src/bertembedding.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bertcpp.dir/src/bertembedding.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/bertembedding.cc.o -MF CMakeFiles/bertcpp.dir/src/bertembedding.cc.o.d -o CMakeFiles/bertcpp.dir/src/bertembedding.cc.o -c /home/liulei/work/BERTCpp/src/bertembedding.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bertcpp.dir/src/bertembedding.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/bertembedding.cc.o -MF CMakeFiles/bertcpp.dir/src/bertembedding.cc.o.d -o CMakeFiles/bertcpp.dir/src/bertembedding.cc.o -c /home/liulei/work/bert_test/src/bertembedding.cc
 
 CMakeFiles/bertcpp.dir/src/bertembedding.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/bertembedding.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/bertembedding.cc > CMakeFiles/bertcpp.dir/src/bertembedding.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/bertembedding.cc > CMakeFiles/bertcpp.dir/src/bertembedding.cc.i
 
 CMakeFiles/bertcpp.dir/src/bertembedding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/bertembedding.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/bertembedding.cc -o CMakeFiles/bertcpp.dir/src/bertembedding.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/bertembedding.cc -o CMakeFiles/bertcpp.dir/src/bertembedding.cc.s
 
 CMakeFiles/bertcpp.dir/src/dense.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/dense.cc.o: ../src/dense.cc
 CMakeFiles/bertcpp.dir/src/dense.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bertcpp.dir/src/dense.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/dense.cc.o -MF CMakeFiles/bertcpp.dir/src/dense.cc.o.d -o CMakeFiles/bertcpp.dir/src/dense.cc.o -c /home/liulei/work/BERTCpp/src/dense.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bertcpp.dir/src/dense.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/dense.cc.o -MF CMakeFiles/bertcpp.dir/src/dense.cc.o.d -o CMakeFiles/bertcpp.dir/src/dense.cc.o -c /home/liulei/work/bert_test/src/dense.cc
 
 CMakeFiles/bertcpp.dir/src/dense.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/dense.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/dense.cc > CMakeFiles/bertcpp.dir/src/dense.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/dense.cc > CMakeFiles/bertcpp.dir/src/dense.cc.i
 
 CMakeFiles/bertcpp.dir/src/dense.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/dense.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/dense.cc -o CMakeFiles/bertcpp.dir/src/dense.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/dense.cc -o CMakeFiles/bertcpp.dir/src/dense.cc.s
 
 CMakeFiles/bertcpp.dir/src/embedding.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/embedding.cc.o: ../src/embedding.cc
 CMakeFiles/bertcpp.dir/src/embedding.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bertcpp.dir/src/embedding.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/embedding.cc.o -MF CMakeFiles/bertcpp.dir/src/embedding.cc.o.d -o CMakeFiles/bertcpp.dir/src/embedding.cc.o -c /home/liulei/work/BERTCpp/src/embedding.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bertcpp.dir/src/embedding.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/embedding.cc.o -MF CMakeFiles/bertcpp.dir/src/embedding.cc.o.d -o CMakeFiles/bertcpp.dir/src/embedding.cc.o -c /home/liulei/work/bert_test/src/embedding.cc
 
 CMakeFiles/bertcpp.dir/src/embedding.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/embedding.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/embedding.cc > CMakeFiles/bertcpp.dir/src/embedding.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/embedding.cc > CMakeFiles/bertcpp.dir/src/embedding.cc.i
 
 CMakeFiles/bertcpp.dir/src/embedding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/embedding.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/embedding.cc -o CMakeFiles/bertcpp.dir/src/embedding.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/embedding.cc -o CMakeFiles/bertcpp.dir/src/embedding.cc.s
 
 CMakeFiles/bertcpp.dir/src/gelu.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/gelu.cc.o: ../src/gelu.cc
 CMakeFiles/bertcpp.dir/src/gelu.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bertcpp.dir/src/gelu.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/gelu.cc.o -MF CMakeFiles/bertcpp.dir/src/gelu.cc.o.d -o CMakeFiles/bertcpp.dir/src/gelu.cc.o -c /home/liulei/work/BERTCpp/src/gelu.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bertcpp.dir/src/gelu.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/gelu.cc.o -MF CMakeFiles/bertcpp.dir/src/gelu.cc.o.d -o CMakeFiles/bertcpp.dir/src/gelu.cc.o -c /home/liulei/work/bert_test/src/gelu.cc
 
 CMakeFiles/bertcpp.dir/src/gelu.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/gelu.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/gelu.cc > CMakeFiles/bertcpp.dir/src/gelu.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/gelu.cc > CMakeFiles/bertcpp.dir/src/gelu.cc.i
 
 CMakeFiles/bertcpp.dir/src/gelu.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/gelu.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/gelu.cc -o CMakeFiles/bertcpp.dir/src/gelu.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/gelu.cc -o CMakeFiles/bertcpp.dir/src/gelu.cc.s
 
 CMakeFiles/bertcpp.dir/src/layernorm.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/layernorm.cc.o: ../src/layernorm.cc
 CMakeFiles/bertcpp.dir/src/layernorm.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bertcpp.dir/src/layernorm.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/layernorm.cc.o -MF CMakeFiles/bertcpp.dir/src/layernorm.cc.o.d -o CMakeFiles/bertcpp.dir/src/layernorm.cc.o -c /home/liulei/work/BERTCpp/src/layernorm.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bertcpp.dir/src/layernorm.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/layernorm.cc.o -MF CMakeFiles/bertcpp.dir/src/layernorm.cc.o.d -o CMakeFiles/bertcpp.dir/src/layernorm.cc.o -c /home/liulei/work/bert_test/src/layernorm.cc
 
 CMakeFiles/bertcpp.dir/src/layernorm.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/layernorm.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/layernorm.cc > CMakeFiles/bertcpp.dir/src/layernorm.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/layernorm.cc > CMakeFiles/bertcpp.dir/src/layernorm.cc.i
 
 CMakeFiles/bertcpp.dir/src/layernorm.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/layernorm.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/layernorm.cc -o CMakeFiles/bertcpp.dir/src/layernorm.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/layernorm.cc -o CMakeFiles/bertcpp.dir/src/layernorm.cc.s
 
 CMakeFiles/bertcpp.dir/src/model.pb.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/model.pb.cc.o: ../src/model.pb.cc
 CMakeFiles/bertcpp.dir/src/model.pb.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bertcpp.dir/src/model.pb.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/model.pb.cc.o -MF CMakeFiles/bertcpp.dir/src/model.pb.cc.o.d -o CMakeFiles/bertcpp.dir/src/model.pb.cc.o -c /home/liulei/work/BERTCpp/src/model.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bertcpp.dir/src/model.pb.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/model.pb.cc.o -MF CMakeFiles/bertcpp.dir/src/model.pb.cc.o.d -o CMakeFiles/bertcpp.dir/src/model.pb.cc.o -c /home/liulei/work/bert_test/src/model.pb.cc
 
 CMakeFiles/bertcpp.dir/src/model.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/model.pb.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/model.pb.cc > CMakeFiles/bertcpp.dir/src/model.pb.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/model.pb.cc > CMakeFiles/bertcpp.dir/src/model.pb.cc.i
 
 CMakeFiles/bertcpp.dir/src/model.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/model.pb.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/model.pb.cc -o CMakeFiles/bertcpp.dir/src/model.pb.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/model.pb.cc -o CMakeFiles/bertcpp.dir/src/model.pb.cc.s
 
 CMakeFiles/bertcpp.dir/src/pooler.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/pooler.cc.o: ../src/pooler.cc
 CMakeFiles/bertcpp.dir/src/pooler.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bertcpp.dir/src/pooler.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/pooler.cc.o -MF CMakeFiles/bertcpp.dir/src/pooler.cc.o.d -o CMakeFiles/bertcpp.dir/src/pooler.cc.o -c /home/liulei/work/BERTCpp/src/pooler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bertcpp.dir/src/pooler.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/pooler.cc.o -MF CMakeFiles/bertcpp.dir/src/pooler.cc.o.d -o CMakeFiles/bertcpp.dir/src/pooler.cc.o -c /home/liulei/work/bert_test/src/pooler.cc
 
 CMakeFiles/bertcpp.dir/src/pooler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/pooler.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/pooler.cc > CMakeFiles/bertcpp.dir/src/pooler.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/pooler.cc > CMakeFiles/bertcpp.dir/src/pooler.cc.i
 
 CMakeFiles/bertcpp.dir/src/pooler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/pooler.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/pooler.cc -o CMakeFiles/bertcpp.dir/src/pooler.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/pooler.cc -o CMakeFiles/bertcpp.dir/src/pooler.cc.s
 
 CMakeFiles/bertcpp.dir/src/quantization.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/quantization.cc.o: ../src/quantization.cc
 CMakeFiles/bertcpp.dir/src/quantization.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/bertcpp.dir/src/quantization.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/quantization.cc.o -MF CMakeFiles/bertcpp.dir/src/quantization.cc.o.d -o CMakeFiles/bertcpp.dir/src/quantization.cc.o -c /home/liulei/work/BERTCpp/src/quantization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/bertcpp.dir/src/quantization.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/quantization.cc.o -MF CMakeFiles/bertcpp.dir/src/quantization.cc.o.d -o CMakeFiles/bertcpp.dir/src/quantization.cc.o -c /home/liulei/work/bert_test/src/quantization.cc
 
 CMakeFiles/bertcpp.dir/src/quantization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/quantization.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/quantization.cc > CMakeFiles/bertcpp.dir/src/quantization.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/quantization.cc > CMakeFiles/bertcpp.dir/src/quantization.cc.i
 
 CMakeFiles/bertcpp.dir/src/quantization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/quantization.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/quantization.cc -o CMakeFiles/bertcpp.dir/src/quantization.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/quantization.cc -o CMakeFiles/bertcpp.dir/src/quantization.cc.s
 
 CMakeFiles/bertcpp.dir/src/selfattention.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/selfattention.cc.o: ../src/selfattention.cc
 CMakeFiles/bertcpp.dir/src/selfattention.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/bertcpp.dir/src/selfattention.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/selfattention.cc.o -MF CMakeFiles/bertcpp.dir/src/selfattention.cc.o.d -o CMakeFiles/bertcpp.dir/src/selfattention.cc.o -c /home/liulei/work/BERTCpp/src/selfattention.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/bertcpp.dir/src/selfattention.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/selfattention.cc.o -MF CMakeFiles/bertcpp.dir/src/selfattention.cc.o.d -o CMakeFiles/bertcpp.dir/src/selfattention.cc.o -c /home/liulei/work/bert_test/src/selfattention.cc
 
 CMakeFiles/bertcpp.dir/src/selfattention.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/selfattention.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/selfattention.cc > CMakeFiles/bertcpp.dir/src/selfattention.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/selfattention.cc > CMakeFiles/bertcpp.dir/src/selfattention.cc.i
 
 CMakeFiles/bertcpp.dir/src/selfattention.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/selfattention.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/selfattention.cc -o CMakeFiles/bertcpp.dir/src/selfattention.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/selfattention.cc -o CMakeFiles/bertcpp.dir/src/selfattention.cc.s
 
 CMakeFiles/bertcpp.dir/src/softmax.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/softmax.cc.o: ../src/softmax.cc
 CMakeFiles/bertcpp.dir/src/softmax.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/bertcpp.dir/src/softmax.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/softmax.cc.o -MF CMakeFiles/bertcpp.dir/src/softmax.cc.o.d -o CMakeFiles/bertcpp.dir/src/softmax.cc.o -c /home/liulei/work/BERTCpp/src/softmax.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/bertcpp.dir/src/softmax.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/softmax.cc.o -MF CMakeFiles/bertcpp.dir/src/softmax.cc.o.d -o CMakeFiles/bertcpp.dir/src/softmax.cc.o -c /home/liulei/work/bert_test/src/softmax.cc
 
 CMakeFiles/bertcpp.dir/src/softmax.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/softmax.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/softmax.cc > CMakeFiles/bertcpp.dir/src/softmax.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/softmax.cc > CMakeFiles/bertcpp.dir/src/softmax.cc.i
 
 CMakeFiles/bertcpp.dir/src/softmax.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/softmax.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/softmax.cc -o CMakeFiles/bertcpp.dir/src/softmax.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/softmax.cc -o CMakeFiles/bertcpp.dir/src/softmax.cc.s
 
 CMakeFiles/bertcpp.dir/src/tokenizer.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/tokenizer.cc.o: ../src/tokenizer.cc
 CMakeFiles/bertcpp.dir/src/tokenizer.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/bertcpp.dir/src/tokenizer.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/tokenizer.cc.o -MF CMakeFiles/bertcpp.dir/src/tokenizer.cc.o.d -o CMakeFiles/bertcpp.dir/src/tokenizer.cc.o -c /home/liulei/work/BERTCpp/src/tokenizer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/bertcpp.dir/src/tokenizer.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/tokenizer.cc.o -MF CMakeFiles/bertcpp.dir/src/tokenizer.cc.o.d -o CMakeFiles/bertcpp.dir/src/tokenizer.cc.o -c /home/liulei/work/bert_test/src/tokenizer.cc
 
 CMakeFiles/bertcpp.dir/src/tokenizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/tokenizer.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/tokenizer.cc > CMakeFiles/bertcpp.dir/src/tokenizer.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/tokenizer.cc > CMakeFiles/bertcpp.dir/src/tokenizer.cc.i
 
 CMakeFiles/bertcpp.dir/src/tokenizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/tokenizer.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/tokenizer.cc -o CMakeFiles/bertcpp.dir/src/tokenizer.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/tokenizer.cc -o CMakeFiles/bertcpp.dir/src/tokenizer.cc.s
 
 CMakeFiles/bertcpp.dir/src/transformer.cc.o: CMakeFiles/bertcpp.dir/flags.make
 CMakeFiles/bertcpp.dir/src/transformer.cc.o: ../src/transformer.cc
 CMakeFiles/bertcpp.dir/src/transformer.cc.o: CMakeFiles/bertcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/bertcpp.dir/src/transformer.cc.o"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/transformer.cc.o -MF CMakeFiles/bertcpp.dir/src/transformer.cc.o.d -o CMakeFiles/bertcpp.dir/src/transformer.cc.o -c /home/liulei/work/BERTCpp/src/transformer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/bertcpp.dir/src/transformer.cc.o"
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bertcpp.dir/src/transformer.cc.o -MF CMakeFiles/bertcpp.dir/src/transformer.cc.o.d -o CMakeFiles/bertcpp.dir/src/transformer.cc.o -c /home/liulei/work/bert_test/src/transformer.cc
 
 CMakeFiles/bertcpp.dir/src/transformer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bertcpp.dir/src/transformer.cc.i"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/BERTCpp/src/transformer.cc > CMakeFiles/bertcpp.dir/src/transformer.cc.i
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liulei/work/bert_test/src/transformer.cc > CMakeFiles/bertcpp.dir/src/transformer.cc.i
 
 CMakeFiles/bertcpp.dir/src/transformer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bertcpp.dir/src/transformer.cc.s"
-	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/BERTCpp/src/transformer.cc -o CMakeFiles/bertcpp.dir/src/transformer.cc.s
+	/tools/speccpu/compiler/gcc-8.2.0-static/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liulei/work/bert_test/src/transformer.cc -o CMakeFiles/bertcpp.dir/src/transformer.cc.s
 
 # Object files for target bertcpp
 bertcpp_OBJECTS = \
@@ -304,7 +304,7 @@ libbertcpp.so: /usr/local/lib64/libprotobuf.so
 libbertcpp.so: /home/liulei/miniconda2/envs/bert/lib/libutf8proc.so
 libbertcpp.so: /home/liulei/hygonblis-dev-20220526/lib/libblis-hg.so
 libbertcpp.so: CMakeFiles/bertcpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX shared library libbertcpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX shared library libbertcpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bertcpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +316,6 @@ CMakeFiles/bertcpp.dir/clean:
 .PHONY : CMakeFiles/bertcpp.dir/clean
 
 CMakeFiles/bertcpp.dir/depend:
-	cd /home/liulei/work/BERTCpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liulei/work/BERTCpp /home/liulei/work/BERTCpp /home/liulei/work/BERTCpp/build /home/liulei/work/BERTCpp/build /home/liulei/work/BERTCpp/build/CMakeFiles/bertcpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liulei/work/bert_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liulei/work/bert_test /home/liulei/work/bert_test /home/liulei/work/bert_test/build /home/liulei/work/bert_test/build /home/liulei/work/bert_test/build/CMakeFiles/bertcpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bertcpp.dir/depend
 

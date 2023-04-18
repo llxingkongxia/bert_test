@@ -1,6 +1,7 @@
 CMakeFiles/bertcpp.dir/src/quantization.cc.o: \
- /home/liulei/work/BERTCpp/src/quantization.cc /usr/include/stdc-predef.h \
- /home/liulei/work/BERTCpp/src/quantization.h \
+ /home/liulei/work/bert_test/src/quantization.cc \
+ /usr/include/stdc-predef.h \
+ /home/liulei/work/bert_test/src/quantization.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/cstddef \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \

@@ -1,5 +1,5 @@
 CMakeFiles/bertcpp.dir/src/tokenizer.cc.o: \
- /home/liulei/work/BERTCpp/src/tokenizer.cc /usr/include/stdc-predef.h \
+ /home/liulei/work/bert_test/src/tokenizer.cc /usr/include/stdc-predef.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/stdexcept \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/exception \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -140,7 +140,7 @@ CMakeFiles/bertcpp.dir/src/tokenizer.cc.o: \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /home/liulei/work/BERTCpp/src/tokenizer.h \
+ /home/liulei/work/bert_test/src/tokenizer.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/vector \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/bits/stl_uninitialized.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/bits/stl_vector.h \

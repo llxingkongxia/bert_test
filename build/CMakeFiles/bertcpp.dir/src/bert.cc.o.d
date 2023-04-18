@@ -1,7 +1,7 @@
 CMakeFiles/bertcpp.dir/src/bert.cc.o: \
- /home/liulei/work/BERTCpp/src/bert.cc /usr/include/stdc-predef.h \
- /home/liulei/work/BERTCpp/src/bert.h \
- /home/liulei/work/BERTCpp/src/util.h \
+ /home/liulei/work/bert_test/src/bert.cc /usr/include/stdc-predef.h \
+ /home/liulei/work/bert_test/src/bert.h \
+ /home/liulei/work/bert_test/src/util.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/cstddef \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -113,12 +113,12 @@ CMakeFiles/bertcpp.dir/src/bert.cc.o: \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/bits/uses_allocator.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/bits/invoke.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/bits/unordered_map.h \
- /home/liulei/work/BERTCpp/src/bertembedding.h \
- /home/liulei/work/BERTCpp/src/embedding.h \
- /home/liulei/work/BERTCpp/src/layernorm.h \
- /home/liulei/work/BERTCpp/src/transformer.h \
- /home/liulei/work/BERTCpp/src/dense.h \
- /home/liulei/work/BERTCpp/src/quantization.h \
+ /home/liulei/work/bert_test/src/bertembedding.h \
+ /home/liulei/work/bert_test/src/embedding.h \
+ /home/liulei/work/bert_test/src/layernorm.h \
+ /home/liulei/work/bert_test/src/transformer.h \
+ /home/liulei/work/bert_test/src/dense.h \
+ /home/liulei/work/bert_test/src/quantization.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/algorithm \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/bits/stl_algo.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/bits/algorithmfwd.h \
@@ -132,8 +132,8 @@ CMakeFiles/bertcpp.dir/src/bert.cc.o: \
  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
  /usr/include/bits/inf.h /usr/include/bits/nan.h \
  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
- /usr/include/bits/mathinline.h /home/liulei/work/BERTCpp/src/gelu.h \
- /home/liulei/work/BERTCpp/src/selfattention.h \
- /home/liulei/work/BERTCpp/src/softmax.h \
- /home/liulei/work/BERTCpp/src/batchgemm.h \
- /home/liulei/work/BERTCpp/src/pooler.h
+ /usr/include/bits/mathinline.h /home/liulei/work/bert_test/src/gelu.h \
+ /home/liulei/work/bert_test/src/selfattention.h \
+ /home/liulei/work/bert_test/src/softmax.h \
+ /home/liulei/work/bert_test/src/batchgemm.h \
+ /home/liulei/work/bert_test/src/pooler.h

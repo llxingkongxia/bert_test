@@ -1,4 +1,4 @@
-/home/liulei/work/BERTCpp/build/CMakeFiles/bertcpp.dir
-/home/liulei/work/BERTCpp/build/CMakeFiles/profiletest.dir
-/home/liulei/work/BERTCpp/build/CMakeFiles/edit_cache.dir
-/home/liulei/work/BERTCpp/build/CMakeFiles/rebuild_cache.dir
+/home/liulei/work/bert_test/build/CMakeFiles/bertcpp.dir
+/home/liulei/work/bert_test/build/CMakeFiles/profiletest.dir
+/home/liulei/work/bert_test/build/CMakeFiles/edit_cache.dir
+/home/liulei/work/bert_test/build/CMakeFiles/rebuild_cache.dir

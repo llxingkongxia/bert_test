@@ -1,6 +1,6 @@
 CMakeFiles/bertcpp.dir/src/model.pb.cc.o: \
- /home/liulei/work/BERTCpp/src/model.pb.cc /usr/include/stdc-predef.h \
- /home/liulei/work/BERTCpp/src/model.pb.h \
+ /home/liulei/work/bert_test/src/model.pb.cc /usr/include/stdc-predef.h \
+ /home/liulei/work/bert_test/src/model.pb.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/limits \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /tools/speccpu/compiler/gcc-8.2.0-static/include/c++/8.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \

@@ -54,10 +54,10 @@ RM = /home/liulei/miniconda2/envs/bert/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liulei/work/BERTCpp
+CMAKE_SOURCE_DIR = /home/liulei/work/bert_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liulei/work/BERTCpp/build
+CMAKE_BINARY_DIR = /home/liulei/work/bert_test/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/profiletest.dir/clean
 CMakeFiles/bertcpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bertcpp.dir/build.make CMakeFiles/bertcpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bertcpp.dir/build.make CMakeFiles/bertcpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target bertcpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target bertcpp"
 .PHONY : CMakeFiles/bertcpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bertcpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/BERTCpp/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/bert_test/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bertcpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/BERTCpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/bert_test/build/CMakeFiles 0
 .PHONY : CMakeFiles/bertcpp.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/bertcpp.dir/clean:
 CMakeFiles/profiletest.dir/all: CMakeFiles/bertcpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiletest.dir/build.make CMakeFiles/profiletest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/profiletest.dir/build.make CMakeFiles/profiletest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liulei/work/BERTCpp/build/CMakeFiles --progress-num=16,17 "Built target profiletest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/liulei/work/bert_test/build/CMakeFiles --progress-num=16,17 "Built target profiletest"
 .PHONY : CMakeFiles/profiletest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/profiletest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/BERTCpp/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/bert_test/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/profiletest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/BERTCpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liulei/work/bert_test/build/CMakeFiles 0
 .PHONY : CMakeFiles/profiletest.dir/rule
 
 # Convenience name for target.
